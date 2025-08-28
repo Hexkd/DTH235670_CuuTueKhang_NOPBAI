@@ -10,7 +10,7 @@ Here are my stats👇
 
 - 🌱 I’m currently learning **Python**
 
-## 🚀 &nbsp;Some Tools I Have Learned
+## 🚀 &nbsp;Some tools I have learned so far
 
 
 
