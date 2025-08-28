@@ -1,7 +1,34 @@
-# Hello there 👋
-Here are some of my stats👇
+### Hello there 👋
+
+My name is Tue Khang, a **Information Technology (IT)** major student from **An Giang University**. My hobby is playing games, and sometime analyze, and find bugs, glitchs while playing.
+#
+Here are my stats👇
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Hexkd)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=Hexkd&layout=compact&theme=tokyonight)](https://github.com/Hexkd)
+#
+
+- 🌱 I’m currently learning **Python**
+
+## 🚀 &nbsp;Some Tools I Have Used and Learned
+
+
+
+<p align="left">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="bash" width="45" height="45"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="45" height="45"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="45" height="45"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlserver/sqlserver-original.svg" alt="SSMS" width="45" height="45"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="45" height="45"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="45" height="45"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt=".NET" width="45" height="45"/>
+</p>
+
+#
+
+
+
+
 
 
 <!--
