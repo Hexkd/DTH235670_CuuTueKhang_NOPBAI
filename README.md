@@ -27,7 +27,9 @@ My name is Tue Khang, an **Information Technology (IT)** major student at **An G
 ## 📊 My GitHub Stats
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Hexkd&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=Hexkd&layout=compact&theme=tokyonight)](https://github.com/Hexkd)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Hexkd&theme=tokyonight-duo&date_format=M%20j%5B%2C%20Y%5D&mode=weekly&fire=EB5454&background=50%2C06007EAA%2CAA2080CC)](https://git.io/streak-stats)<br/>
+[![Taehyun's GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=Hexkd&limit=5&theme=tokyonight&combine_all_yearly_contributions=true)](https://github.com/HwangTaehyun/github-repository-contribution-stats)<br/>
+[![Anurag's Top Langs Card](https://github-readme-stats.vercel.app/api/top-langs?username=Hexkd&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#top-languages-card)<br/>
 
 ---
 
