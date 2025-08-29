@@ -1,4 +1,4 @@
-### Hello there 👋
+# Hello there 👋
 #
 My name is Tue Khang, an **Information Technology (IT)** major student at **An Giang University**. I have passionate about video games, coding, learning new technologies, and sometimes software analysis.
 
