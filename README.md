@@ -1,11 +1,11 @@
 # Hello there 👋
-My name is Tue Khang, an **Information Technology (IT)** major student at **An Giang University**. I have passionate about video games, coding, learning new technologies, and sometimes software analysis.
+My name is Tue Khang, an **Information Technology (IT)** major at **An Giang University**. I have passionate about video games, coding, learning new technologies, and sometimes software analysis.
 
 ---
 
 ## 🌱 Currently Learning
 - **Python** (learning to build projects and sharpening skills!)
-- Exploring backend development and databases.
+- Exploring backend development and databases
 
 ---
 
@@ -43,9 +43,9 @@ My name is Tue Khang, an **Information Technology (IT)** major student at **An G
 
 ## ⚠️Notice
 
-- Incase you stumbled upon this repo, notices that this repo is from my university **Python learning programs**.
-- There aren't many innovation to find here.
-- But, if you are my **EXAMINER**, feel free to view this repo all you want.
+- Incase you stumbled upon this repo, please note that it's a part of my university's **Python learning programs**
+- There aren't many innovations to find here — only for practice and coursework purposes.
+- But, if you are my **EXAMINER**, feel free to view this repo as much you'd like.
 
 
 
