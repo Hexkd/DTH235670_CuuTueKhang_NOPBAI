@@ -41,6 +41,12 @@ My name is Tue Khang, an **Information Technology (IT)** major student at **An G
 
 ---
 
+## ⚠️Notice
+
+- Incase you stumbled upon this repo, notices that this repo is from my university **Python learning programs**.
+- There aren't many innovation to find here.
+- But, if you are my **EXAMINER**, feel free to view this repo all you want.
+
 
 
 
