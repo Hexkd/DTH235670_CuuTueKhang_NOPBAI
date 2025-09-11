@@ -30,7 +30,8 @@ My name is Tue Khang, an **Information Technology (IT)** major at **An Giang Uni
 [![GitHub Streak](https://streak-stats.demolab.com?user=Hexkd&theme=tokyonight-duo&date_format=M%20j%5B%2C%20Y%5D&mode=weekly&fire=EB5454&background=50%2C06007EAA%2CAA2080CC)](https://git.io/streak-stats)<br/>
 [![Taehyun's GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=Hexkd&limit=5&theme=tokyonight&combine_all_yearly_contributions=true)](https://github.com/HwangTaehyun/github-repository-contribution-stats)<br/>
 [![Anurag's Top Langs Card](https://github-readme-stats.vercel.app/api/top-langs?username=Hexkd&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#top-languages-card)<br/>
-
+<!-- [![Hexkd's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Hexkd&theme=tokyo-night&point=FF2056&custom_title=Hexkd's%20Contribution%20Graph&grid=false)](https://github.com/ashutosh00710/github-readme-activity-graph)
+-->
 ---
 
 ## 💬 Contact Me
@@ -60,6 +61,9 @@ My name is Tue Khang, an **Information Technology (IT)** major at **An Giang Uni
 - 🐞 Discovered critical bugs in [Game Title] and reported to devs
 
 ---
+
+## ⏱ Recent Activities Graph
+[![Hexkd's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Hexkd&theme=tokyo-night&point=A229D6)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 **Hexkd/Hexkd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
