@@ -31,6 +31,7 @@ My name is Tue Khang, an **Information Technology (IT)** major at **An Giang Uni
 [![Taehyun's GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=Hexkd&limit=5&theme=tokyonight&combine_all_yearly_contributions=true)](https://github.com/HwangTaehyun/github-repository-contribution-stats)<br/>
 [![Anurag's Top Langs Card](https://github-readme-stats.vercel.app/api/top-langs?username=Hexkd&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#top-languages-card)<br/>
 <!-- [![Hexkd's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Hexkd&theme=tokyo-night&point=FF2056&custom_title=Hexkd's%20Contribution%20Graph&grid=false)](https://github.com/ashutosh00710/github-readme-activity-graph)
+![](https://github-trophies.vercel.app/?username=DTH235666PHANMINHHUY&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 -->
 ---
 
@@ -64,6 +65,7 @@ My name is Tue Khang, an **Information Technology (IT)** major at **An Giang Uni
 
 ## ⏱ Recent Activities Graph
 [![Hexkd's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Hexkd&theme=tokyo-night&point=A229D6)](https://github.com/ashutosh00710/github-readme-activity-graph)
+![](https://github-trophies.vercel.app/?username=DTH235666PHANMINHHUY&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
 **Hexkd/Hexkd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
