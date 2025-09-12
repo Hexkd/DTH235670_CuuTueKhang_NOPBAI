@@ -1,3 +1,4 @@
+# Nhập giá trị 2 số a, b theo phép toán do người dùng nhập vào
 a = float(input("Nhập số a: "))
 b = float(input("Nhập số b: "))
 op = input("Nhập phép toán (+, -, *, /): ")

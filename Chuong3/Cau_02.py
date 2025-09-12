@@ -1,3 +1,4 @@
+# Đếm số ngày trong tháng
 print("Chương trình đếm số ngày trong tháng\n")
 month = int(input("Nhập vào tháng (1-12): "))
 if month in (1, 3, 5, 7, 8, 10, 12):

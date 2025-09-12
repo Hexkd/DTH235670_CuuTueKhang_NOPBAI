@@ -1,3 +1,4 @@
+# Viết các biểu thức Boolean sau và in kết quả của chúng ra
 x = 3, y = 5, z = 7
 print("Kết quả của Boolean expressions:\n")
 print("(a) x == 3", x == 3) # True

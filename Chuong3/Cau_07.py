@@ -1,3 +1,5 @@
+
+# Viết chương trình nhập vào ngày, tháng, năm và in ra ngày kế tiếp.
 class Date:
     def __init__(self, day, month, year):
         self.day = day

@@ -1,3 +1,4 @@
+# Tính nghiệm phương trình bậc hai: ax^2 + bx + c = 0
 import math
 
 print("Chương trình tính phương trình bậc hai: ax^2 + bx + c = 0\n")
