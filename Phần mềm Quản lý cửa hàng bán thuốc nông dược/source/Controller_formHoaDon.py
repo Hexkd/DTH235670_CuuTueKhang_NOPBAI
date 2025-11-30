@@ -14,6 +14,7 @@ class Controller_formHoaDon:
         self._model = None
         self._current_row = -1
         self._is_adding = False
+        self._is_editing = False
         self._setup_ui()
         self._setup_events()
 
@@ -66,7 +67,7 @@ class Controller_formHoaDon:
             model.setHeaderData(idx, QtCore.Qt.Orientation.Horizontal, h)
         return model
 
-    def _refresh_model(self):
+    def _lam_moi_model(self):
         """Làm mới lại model"""
         query = QtSql.QSqlQuery(self.db)
         query.prepare("""
@@ -108,6 +109,7 @@ class Controller_formHoaDon:
     def _them_hd(self):
         """Thêm Hóa đơn"""
         self._is_adding = True
+        self._is_editing = False
         self.ui.txtMaHD.clear()
         self.ui.txtMaNV.clear()
         self.ui.txtMaKH.clear()
@@ -128,6 +130,7 @@ class Controller_formHoaDon:
             QtWidgets.QMessageBox.warning(self.parent_window, "Lỗi", "Vui lòng chọn hóa đơn để sửa.")
             return
         self._is_adding = False
+        self._is_editing = True
         self.ui.btnThem.setEnabled(False)
         self.ui.btnSua.setEnabled(False)
         self.ui.btnXoa.setEnabled(False)
@@ -156,7 +159,7 @@ class Controller_formHoaDon:
         if not qry_delete.exec():
             QtWidgets.QMessageBox.critical(self.parent_window, "Lỗi", "Xóa thất bại.")
             return
-        self._refresh_model()
+        self._lam_moi_model()
         self.ui.txtMaHD.clear()
         self.ui.txtMaNV.clear()
         self.ui.txtMaKH.clear()
@@ -243,8 +246,9 @@ class Controller_formHoaDon:
                 return
             QtWidgets.QMessageBox.information(self.parent_window, "Thành công", "Cập nhật hóa đơn thành công.")
 
-        self._refresh_model()
+        self._lam_moi_model()
         self._is_adding = False
+        self._is_editing = False
         self.ui.btnThem.setEnabled(True)
         self.ui.btnSua.setEnabled(True)
         self.ui.btnXoa.setEnabled(True)
