@@ -1,19 +1,19 @@
 ﻿USE master
 GO
 -- Xóa CSDL cũ nếu tồn tại
-IF EXISTS (SELECT name FROM sys.databases WHERE name = N'QLCH_BanThuocNongDuoc')
+IF EXISTS (SELECT name FROM sys.databases WHERE name = N'QLCH_MuaBanThuocNongDuoc')
 BEGIN
-    ALTER DATABASE [QLCH_BanThuocNongDuoc] SET SINGLE_USER WITH ROLLBACK IMMEDIATE
-    DROP DATABASE [QLCH_BanThuocNongDuoc]
+    ALTER DATABASE [QLCH_MuaBanThuocNongDuoc] SET SINGLE_USER WITH ROLLBACK IMMEDIATE
+    DROP DATABASE [QLCH_MuaBanThuocNongDuoc]
 END
 GO
 
 --------------------------------------------------------------------------------------------
--- Tạo CSDL tên [QLCH_BanThuocNongDuoc]
+-- Tạo CSDL tên [QLCH_MuaBanThuocNongDuoc]
 --------------------------------------------------------------------------------------------
-CREATE DATABASE [QLCH_BanThuocNongDuoc]
+CREATE DATABASE [QLCH_MuaBanThuocNongDuoc]
 GO
-USE [QLCH_BanThuocNongDuoc]
+USE [QLCH_MuaBanThuocNongDuoc]
 GO
 
 --------------------------------------------------------------------------------------------
