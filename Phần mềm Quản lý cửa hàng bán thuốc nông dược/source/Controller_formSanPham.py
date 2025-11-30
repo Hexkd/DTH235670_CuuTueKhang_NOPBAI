@@ -18,7 +18,7 @@ class Controller_formSanPham:
         self._setup_ui()
         self._setup_su_kien()
 
-    def _tao_model_sp_table(self, table_name, headers):
+    def _tao_model_sp(self, table_name, headers):
         """Tạo QSqlTableModel cho SanPham (sử dụng khi cần submit qua model)."""
         if self.db is None or not self.db.isOpen():
             return None
@@ -32,8 +32,8 @@ class Controller_formSanPham:
 
     def _setup_ui(self):
         """Thiết lập giao diện ban đầu; hiển thị dữ liệu lên tbvSanPham"""
-        # Tạo model thao tác (table) và model view (query)
-        self._table_model = self._tao_model_sp_table("SanPham", ["Mã SP", "Tên SP", "Giá", "Số lượng"])
+        # Lấy bảng SanPham từ CSDL và đặt các tên cột
+        self._table_model = self._tao_model_sp("SanPham", ["Mã SP", "Tên SP", "Giá", "Số lượng"])
         if self._table_model is None:
             return
         self.ui.tbvSanPham.setModel(self._table_model)

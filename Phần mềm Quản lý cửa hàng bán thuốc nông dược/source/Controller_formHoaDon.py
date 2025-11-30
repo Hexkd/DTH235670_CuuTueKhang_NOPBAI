@@ -16,7 +16,7 @@ class Controller_formHoaDon:
         self._is_adding = False
         self._is_editing = False
         self._setup_ui()
-        self._setup_events()
+        self._setup_su_kien()
 
     def _setup_ui(self):
         """Thiết lập giao diện ban đầu"""
@@ -28,16 +28,9 @@ class Controller_formHoaDon:
         self.ui.tbvHoaDon.setSelectionBehavior(QtWidgets.QTableView.SelectionBehavior.SelectRows)
         self.ui.tbvHoaDon.setSelectionMode(QtWidgets.QTableView.SelectionMode.SingleSelection)
 
-        # Thiết lập mặc định tắt các nút khi chưa chọn dữ liệu
-        try:
-            self.ui.btnSua.setEnabled(False)
-            self.ui.btnXoa.setEnabled(False)
-            self.ui.btnLuu.setEnabled(False)
-            self.ui.btnHuy.setEnabled(False)
-        except Exception:
-            pass
+        self._bat_tat_control(False)
 
-    def _setup_events(self):
+    def _setup_su_kien(self):
         """Kết nối các sự kiện"""
         self.ui.tbvHoaDon.selectionModel().currentChanged.connect(self._chon_dong_hd)
         self.ui.btnThem.clicked.connect(self._them_hd)
@@ -46,6 +39,27 @@ class Controller_formHoaDon:
         self.ui.btnLuu.clicked.connect(self._luu_hd)
         self.ui.btnHuy.clicked.connect(self._huy_them_sua_hd)
         self.ui.btnThoat.clicked.connect(self.parent_window.close)
+
+    def _bat_tat_control(self, enable=False):
+        """Bật/tắt controls của form Nhân Viên.
+        - True :
+            + ON : Lưu, Hủy, ô nhập
+            + OFF: ...
+        - False:
+            + ON : Thêm, Sửa, Xóa
+            + OFF: ...
+        """
+        self.ui.txtMaHD.setReadOnly(not enable)
+        self.ui.txtMaNV.setReadOnly(not enable)
+        self.ui.txtMaSP.setReadOnly(not enable)
+        self.ui.txtMaKH.setReadOnly(not enable)
+        self.ui.txtSoLuong.setReadOnly(not enable)
+
+        self.ui.btnThem.setEnabled(not enable)
+        self.ui.btnSua.setEnabled(not enable)
+        self.ui.btnXoa.setEnabled(not enable)
+        self.ui.btnLuu.setEnabled(enable)
+        self.ui.btnHuy.setEnabled(enable)
 
     def _tao_model_hd(self):
         """Tạo QSqlQueryModel cho bảng HóaĐơn"""
@@ -116,11 +130,7 @@ class Controller_formHoaDon:
         self.ui.txtMaSP.clear()
         self.ui.txtSoLuong.clear()
         self.ui.txtThanhTien.clear()
-        self.ui.btnThem.setEnabled(False)
-        self.ui.btnSua.setEnabled(False)
-        self.ui.btnXoa.setEnabled(False)
-        self.ui.btnLuu.setEnabled(True)
-        self.ui.btnHuy.setEnabled(True)
+        self._bat_tat_control(True)
         self.ui.txtMaHD.setFocus()
 
     def _sua_hd(self):
@@ -131,11 +141,7 @@ class Controller_formHoaDon:
             return
         self._is_adding = False
         self._is_editing = True
-        self.ui.btnThem.setEnabled(False)
-        self.ui.btnSua.setEnabled(False)
-        self.ui.btnXoa.setEnabled(False)
-        self.ui.btnLuu.setEnabled(True)
-        self.ui.btnHuy.setEnabled(True)
+        self._bat_tat_control(True)
         self.ui.txtMaHD.setFocus()
 
     def _xoa_hd(self):
@@ -249,11 +255,7 @@ class Controller_formHoaDon:
         self._lam_moi_model()
         self._is_adding = False
         self._is_editing = False
-        self.ui.btnThem.setEnabled(True)
-        self.ui.btnSua.setEnabled(True)
-        self.ui.btnXoa.setEnabled(True)
-        self.ui.btnLuu.setEnabled(False)
-        self.ui.btnHuy.setEnabled(False)
+        self._bat_tat_control(False)
 
     def _huy_them_sua_hd(self):
         """Hủy"""
@@ -278,8 +280,5 @@ class Controller_formHoaDon:
                 self.ui.txtSoLuong.setText(str(self._model.data(self._model.index(row, 6))))
                 self.ui.txtThanhTien.setText(str(self._model.data(self._model.index(row, 7))))
         self._is_adding = False
-        self.ui.btnThem.setEnabled(True)
-        self.ui.btnSua.setEnabled(True)
-        self.ui.btnXoa.setEnabled(True)
-        self.ui.btnLuu.setEnabled(False)
-        self.ui.btnHuy.setEnabled(False)
+        self._is_editing = False
+        self._bat_tat_control(True)
