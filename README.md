@@ -49,6 +49,12 @@ My name is Tue Khang, an **Information Technology (IT)** major at **An Giang Uni
 - There aren't many innovations to find here — only for practice and coursework purposes.
 - But, if you are my **EXAMINER**, feel free to view this repo as much you'd like.
 
+---
+
+## ℹ️About
+
+- Chuong2, Chuong3, ... contains my personal **Python** programming assignments
+- "Phần mềm Quản lý cửa hàng mua bán thuốc nông dược" contains our interactive CRUD (Insert/Update/Delete) **Python project** using **Qt Designer** for GUI made by [ME](https://github.com/Hexkd) and [tranphuchau-agu](https://github.com/tranphuchau-agu)
 
 
 
